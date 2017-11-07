@@ -1,0 +1,8 @@
+input[name="name"], input[name="age"] {
+    display: block;
+    margin-top: 5px;
+}
+
+label {
+    display: block;
+}
