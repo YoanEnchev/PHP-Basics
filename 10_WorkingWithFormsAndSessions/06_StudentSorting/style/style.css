@@ -1,0 +1,47 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+input {
+    width: 110px;
+}
+
+.remove, .add {
+    padding: 0 7px;
+    background: #4CAF50;
+    margin-left: 15px;
+    font-weight: normal;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+}
+
+.remove:hover, .add:hover, #submit:hover {
+    background: springgreen;
+    cursor: pointer;
+}
+
+#submit {
+    font-weight: normal;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    background: #4CAF50;
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+}
