@@ -1,22 +1,13 @@
-label {
-    display: block;
-    width: 200px;
-}
-
-#forms {
+fieldset {
+    width: 170px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
-fieldset {
-    height: 280px;
-}
-
-#generateTable {
-    display: block !important;
-    margin: 30px auto;
+input {
+    display: block;
 }
 
 table {
@@ -30,9 +21,13 @@ table td, table th {
     padding: 8px;
 }
 
-table tr:nth-child(even){background-color: #f2f2f2;}
+table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
 
-table tr:hover {background-color: #ddd;}
+table tr:hover {
+    background-color: #ddd;
+}
 
 table th {
     padding-top: 12px;
@@ -42,6 +37,3 @@ table th {
     color: white;
 }
 
-p {
-    text-align: center;
-}
